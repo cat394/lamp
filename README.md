@@ -5,7 +5,7 @@ This is a package that provides minimal tools useful for web development.
 Currently it only has two modules, but in the future we plan to provide
 minimalist CSS and a thin wrapper around the MongoDB Data API.
 
-> [!NOTE] 
+> [!NOTE]
 > Any tab or newline characters in the template will be replaced with an
 > empty string.
 

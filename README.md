@@ -5,7 +5,8 @@ This is a package that provides minimal tools useful for web development.
 Currently it only has two modules, but in the future we plan to provide
 minimalist CSS and a thin wrapper around the MongoDB Data API.
 
-> [!NOTE] Any tab or newline characters in the template will be replaced with an
+> [!NOTE] 
+> Any tab or newline characters in the template will be replaced with an
 > empty string.
 
 This package currently includes the following tools:
@@ -38,7 +39,8 @@ This package currently includes the following tools:
   // => <ul><li>string</li><li>1</li><li>true</li></ul>
   ```
 
-  > [!CAUTION] The `html` function **do not escape markup**, so be sure to
+  > [!CAUTION]
+  > The `html` function **do not escape markup**, so be sure to
   > manually escape any potentially dangerous content from your users.
 
   ```ts

@@ -1,3 +1,3 @@
-import { escapeDangerousMarkup, html } from "./html.ts";
+import { html } from "./html.ts";
 
-export { escapeDangerousMarkup, html };
+export { html };

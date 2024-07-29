@@ -1,23 +1,3 @@
-import { escape } from "@std/html";
-
-/**
- * Escapes dangerous markup to prevent XSS attacks.
- *
- * Example:
- *
- * ```ts
- * import { escapeDangerousMarkup } from "@kokomi/lamp";
- *
- * const dangerousMarkup = '<script src="inject.js></script>';
- *
- * const escaped = escapeDangerousMarkup(dangerousMarkup);
- * // =>  &lt;script src=&quot;inject.js&quot;&gt;&lt;/script&gt;
- * ```
- */
-export function escapeDangerousMarkup(markup: string): string {
-  return escape(markup);
-}
-
 /**
  * A template tag function that creates a string from template literals, allowing dynamic values to be safely included.
  *

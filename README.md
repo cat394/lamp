@@ -2,9 +2,6 @@
 
 This is a package that provides minimal tools useful for web development.
 
-Currently it only has two modules, but in the future we plan to provide
-minimalist CSS and a thin wrapper around the MongoDB Data API.
-
 > [!NOTE]
 > Any tab or newline characters in the template will be replaced with an
 > empty string.
@@ -14,8 +11,6 @@ This package currently includes the following tools:
 - HTML
 
   - `html` function for generating templates.
-
-  - `escapeDangerousMarkup` function for escaping dangerous markup.
 
 ## Usage:
 
@@ -47,10 +42,6 @@ This package currently includes the following tools:
   const dangerousMarkup = '<script src="inject.js"></script>';
   const template = html`<p>${dangerousMarkup}</p>`;
   // => <p><script src="inject.js"></script></p> - ❌︎ XSS attack!
-
-  const escaped = escapeDangerousMarkup(dangerousMarkup);
-  const template = html`<p>${escaped}</p>`;
-  // => &lt;script src=&quot;inject.js&quot;&gt;&lt;/script&gt; - ✅ Safe string!
   ```
 
 ## Licence

@@ -23,7 +23,7 @@ This package currently includes the following tools:
   inserted is an array, the elements of the array are stringified and joined.
 
   ```ts
-  import { escapeDangerousMarkup, html } from '@kokomi/lamp';
+  import { html } from '@kokomi/lamp';
 
   const template = html`<p>Hello</p>`; // => <p>Hello</p>
 

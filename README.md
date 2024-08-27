@@ -2,6 +2,11 @@
 
 This is a package that provides minimal tools useful for web development.
 
+> [!WARNING]
+> This package is no longer under maintenance as of 2024/08/27.
+
+> I was interested in using HTMX for state changes, so I developed html tag functions to make server-side templates easier and more reusable, but after using HTML I realized that using a front-end framework for state changes was obviously simpler and that HTMX was not meant to replace it.
+
 > [!NOTE]
 > Any tab or newline characters in the template will be replaced with an
 > empty string.
